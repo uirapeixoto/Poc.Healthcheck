@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AspNetCore.HealthChecks.System" Version="6.0.5" />
+	<PackageReference Include="AspNetCore.HealthChecks.UI" Version="6.0.5" />
+	<PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
+	<PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="6.0.5" />
+	<PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="6.0.2" />
+	<PackageReference Include="AspNetCore.HealthChecks.UI.SQLite.Storage" Version="6.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.Helalthcheck.Helpers.Domain\Poc.Healthcheck.Helpers.Domain.csproj" />
+    <ProjectReference Include="..\Poc.Helalthcheck.Helpers.Infra\Poc.Healthcheck.Helpers.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

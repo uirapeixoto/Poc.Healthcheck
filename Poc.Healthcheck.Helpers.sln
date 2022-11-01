@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.Healthcheck.Helpers.Api02", "Poc.Helalthcheck.Helpers.Api02\Poc.Healthcheck.Helpers.Api02.csproj", "{823A0FD4-6D96-49E6-ACF1-99B427F5B93A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.Healthcheck.Helpers.Infra", "Poc.Helalthcheck.Helpers.Infra\Poc.Healthcheck.Helpers.Infra.csproj", "{87B48A96-7DEC-47C2-BD40-7966A2A23991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.Healthcheck.Helpers.Domain", "Poc.Helalthcheck.Helpers.Domain\Poc.Healthcheck.Helpers.Domain.csproj", "{E6BF1696-1848-419D-8255-B96202ED86A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.Healthcheck.Helpers.Api03", "Poc.Healthcheck.Helpers.Api03\Poc.Healthcheck.Helpers.Api03.csproj", "{5610382B-5A0C-49E2-A312-36FDEDFAB9AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Healthcheck.Helpers.Api01", "Poc.Helalthcheck.Helpers.Api01\Poc.Healthcheck.Helpers.Api01.csproj", "{145FB704-F1A4-442C-98FA-4D11C99135CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{823A0FD4-6D96-49E6-ACF1-99B427F5B93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823A0FD4-6D96-49E6-ACF1-99B427F5B93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823A0FD4-6D96-49E6-ACF1-99B427F5B93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823A0FD4-6D96-49E6-ACF1-99B427F5B93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B48A96-7DEC-47C2-BD40-7966A2A23991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B48A96-7DEC-47C2-BD40-7966A2A23991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B48A96-7DEC-47C2-BD40-7966A2A23991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B48A96-7DEC-47C2-BD40-7966A2A23991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BF1696-1848-419D-8255-B96202ED86A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BF1696-1848-419D-8255-B96202ED86A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BF1696-1848-419D-8255-B96202ED86A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BF1696-1848-419D-8255-B96202ED86A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5610382B-5A0C-49E2-A312-36FDEDFAB9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5610382B-5A0C-49E2-A312-36FDEDFAB9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5610382B-5A0C-49E2-A312-36FDEDFAB9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5610382B-5A0C-49E2-A312-36FDEDFAB9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145FB704-F1A4-442C-98FA-4D11C99135CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145FB704-F1A4-442C-98FA-4D11C99135CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145FB704-F1A4-442C-98FA-4D11C99135CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145FB704-F1A4-442C-98FA-4D11C99135CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7835DA13-046E-474A-8797-1537B6244831}
+	EndGlobalSection
+EndGlobal
